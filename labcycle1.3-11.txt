@@ -1,0 +1,6 @@
+def compute_gcd(x,y):
+    while(y):
+        x,y=y,x%y
+    return x
+gcd=compute_gcd(24,54) 
+print("The gcd of two numbers :",gcd)

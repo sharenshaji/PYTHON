@@ -1,0 +1,17 @@
+lista=[2,3,4,5]
+listb=[6,7,8,9,10]
+length1=len(lista)
+length2=len(listb)
+if(length2==length1):
+    print("list are in same length")
+else:
+    print("list are not same length")
+total1=sum(lista)
+total2=sum(listb)
+if(total1==total2):
+    print("sum are equal")
+else:
+    print("sum are not equal")
+output=any(check in listb for check in lista)
+print("common values:",output)
+print(set(listb).intersection(set(listb)))

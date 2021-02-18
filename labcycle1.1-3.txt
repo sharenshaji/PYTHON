@@ -1,0 +1,11 @@
+list1=[]
+n=int(input("enter the number of elements:"))
+i=0
+while(i<n):
+ element=int(input("enter the element:"))
+ list1.insert(i,element)
+ i=i+1
+print("squares of numbers:")
+for num in list1:
+    if num>=0:
+       print(num*num,end=" ")

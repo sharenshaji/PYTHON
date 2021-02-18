@@ -1,0 +1,4 @@
+colors=input("Enter a list of colors and seperated the values using comma:\n")
+colors_list=colors.split(",")
+print("First color is ",colors_list[0])
+print("Last color is ",colors_list[-1])            

@@ -1,0 +1,9 @@
+newlist=[]
+n=int(input("enter the no of elements:"))
+for i in range(0,n):
+   element =int(input("enter number"))
+   if element>100:
+       newlist.append("over")
+   else:
+        newlist.append(element)
+print(newlist)  

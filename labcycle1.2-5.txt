@@ -1,0 +1,9 @@
+str=(input("Enter a string:"))
+
+x=list(str)
+y=x[0]
+length=len(x)
+for i in range (1,length):
+    if x[i]==y:       
+      x[i]='$'
+  print(x)

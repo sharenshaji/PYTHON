@@ -1,0 +1,3 @@
+color_list=set(['white','red','blue','yellow'])
+colorlist2=set(['black','red','blue','orange'])
+print(color_list.difference(colorlist2))

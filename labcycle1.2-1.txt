@@ -1,0 +1,12 @@
+def occurence(str):
+  word=str.split()
+  count=dict()
+  for wrd in word:
+     if wrd in count:
+        count[wrd]=count[wrd]+1
+     else:
+        count[wrd]=1
+  return count
+   
+string=input("enter a string:")
+print(occurence(string))

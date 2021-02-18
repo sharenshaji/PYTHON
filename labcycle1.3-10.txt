@@ -1,0 +1,5 @@
+d1={"a":20,"b":30,"c":29}
+d2={"d":10,"e":5,"f":23}
+d=d1.copy()
+d.update(d2)
+print("merged",d)

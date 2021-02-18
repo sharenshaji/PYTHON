@@ -1,0 +1,8 @@
+d={'sharen':45,'kesiya':45,'aby':50}
+print("the dictionary is",d)
+li=list(d.items())
+li.sort()
+print("dictionary in ascending",li)
+li1=list(d.items())
+li1.sort(reverse=True)
+print("dictionary in descending",li1)

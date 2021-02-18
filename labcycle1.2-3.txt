@@ -1,0 +1,8 @@
+listn=['anu','vinu','manu','arun']
+count=0
+for i in listn:
+    for j in i:
+      if j=='a':
+        count=count+1
+print("list is",listn)        
+print("no of A in list :",count)        

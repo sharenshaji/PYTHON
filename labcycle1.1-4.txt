@@ -1,0 +1,10 @@
+string=input("enter a string:")
+i=0
+list1=[]
+for element in string:
+     if(element=='a' or element=='e' or element=='i' or element=='o' or element=='u'):
+          list1.insert(i,element)
+          i=i+1
+print("values of the string:")
+for element in list1:
+     print(element,end=" ")
